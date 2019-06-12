@@ -7,8 +7,8 @@ def fizzbuzz(num)
   elsif (num % 5 == 0) && ((num % 5 == 0) != (num % 3 ==0))
     return "Buzz"
   elsif num != (num % 2 == 0)
-    return nil
-  else
     return "FizzBuzz"
+  else
+    return nil
   end
 end
