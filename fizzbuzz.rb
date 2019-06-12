@@ -2,7 +2,6 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  binding.pry
   if (num % 3 == 0) != (num % 5 == 0)
     return "Fizz"
   elsif (num % 5 == 0) != (num % 3 == 0)
