@@ -3,9 +3,9 @@
 def fizzbuzz(num)
   if num / 3
     return "Fizz"
-  elsif num / 5 
+  elsif num / 5
     return "Buzz"
-  elsif num / 3 == 15 && num / 5 == 15
+  elsif num / 3 && num / 5
     return "FizzBuzz"
   else
     return nil
